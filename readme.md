@@ -24,6 +24,29 @@ http 模块
 - express koa http模块封装
 - 用法 头的用法 状态码
 
+|类别|原因|用途|
+|:--:|:--:|:--:|
+|**1XX**|**informational**|
+|**2XX**|**Success**|
+|200|OK|
+|204|Not Content|
+|206|Partial Content(content-Range指定内容)|断点续传|
+|**3XX**|**Redirection**|
+|301|Moved Permanently|
+|302|Found|
+|303|See Other|
+|304|Not Modified|缓存|
+|307|Temporarty Redirect|
+|**4XX**|**Client Error**|
+|400|Bad Request|
+|401|unauthorized|
+|403|Forbidden|
+|404|Not Found|
+|**5XX**|**Server Error**|
+|500|Internal Server Error|
+|503|Service Unavailable|
+
+
 200
 204
 206 范围请求
